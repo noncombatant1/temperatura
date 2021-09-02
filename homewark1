@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите максимальную температуру за сутки");
+            int x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите минимальную температуру за сутки");
+            int y = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Средняя температура " + (x+y)/2);
+        }
+    }
+}
